@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THGJB v2.0.0 - Lanzamiento Oficial</title>
+    <style>
+        body {
+            background-color: #05050a;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            border: 2px solid #0055ff;
+            border-radius: 15px;
+            padding: 30px 20px;
+            background: linear-gradient(145deg, #0a0a14, #05050f);
+            box-shadow: 0 0 20px rgba(0, 85, 255, 0.2);
+        }
+        h1 {
+            color: #ff2233;
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .version {
+            background-color: #0055ff;
+            color: white;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+        }
+        .features {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #ff2233;
+            margin-bottom: 30px;
+        }
+        .features ul { margin: 0; padding-left: 20px; }
+        .features li { margin: 8px 0; color: #ccc; }
+        .btn-download {
+            background-color: #ff2233;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px 35px;
+            border-radius: 30px;
+            display: inline-block;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 34, 51, 0.4);
+            margin-bottom: 35px;
+            text-transform: uppercase;
+        }
+        .compatibility-title {
+            color: #0055ff;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            margin-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+        }
+        .installers-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .installer-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(0, 85, 255, 0.1);
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THGJB</h1>
+        <div class="version">v2.0.0 BETA LOCAL</div>
+        <p style="color: #8a99ad;">Soporte Oficial: iOS 15.0 - iOS 26.0</p>
+        <div class="features">
+            <h3 style="margin-top: 0; color: white;">Ecosistema Activo:</h3>
+            <ul>
+                <li>Soporte <b>AppTapp Installer</b></li>
+                <li>Cydia • Saily • Sileo • Zebra</li>
+            </ul>
+        </div>
+        <a href="THGJB.ipa" class="btn-download" download>Descargar .IPA</a>
+        <div class="compatibility-title">Instaladores Compatibles</div>
+        <div class="installers-grid">
+            <div class="installer-card">⚡ TrollStore</div>
+            <div class="installer-card">🔥 ESign</div>
+            <div class="installer-card">💠 KSign</div>
+            <div class="installer-card">💻 AltStore / Sideloadly</div>
+        </div>
+    </div>
+</body>
+</html>
